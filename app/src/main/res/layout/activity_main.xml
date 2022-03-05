@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:text="Velg tid for hver spiller" />
+
+    <SeekBar
+        android:id="@+id/mainTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:max="60" />
+
+    <TextView
+        android:id="@+id/mainTimeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="monospace"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:text="Velg tilleggstid" />
+
+    <SeekBar
+        android:id="@+id/mainIncrement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:max="30" />
+
+    <TextView
+        android:id="@+id/mainIncrementText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="monospace"/>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:text="START"/>
+
+    <Button
+        android:id="@+id/blitzButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:text="Blitz"/>
+
+    <Button
+        android:id="@+id/rapidButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:text="Rapid"/>
+
+    <Button
+        android:id="@+id/classicButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:text="Classic"/>
+
+    <Button
+        android:id="@+id/lardalgatenButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:text="Lardalgaten Open\nChess Tournament"/>
+
+    <Button
+        android:id="@+id/competitorButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:text="SPILLERE"/>
+
+</LinearLayout>
